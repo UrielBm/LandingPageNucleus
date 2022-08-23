@@ -23,10 +23,10 @@
             <img src="img/logo.svg" alt="logo nucleus" />
           </div>
           <nav class="navegacion">
-            <a href="" class="navegacion__link">¿Qué es?</a>
-            <a href="" class="navegacion__link">¿Cómo funciona?</a>
-            <a href="" class="navegacion__link">Precios</a>
-            <a href="" class="navegacion__link">Contratar</a>
+            <a href="#Que_es" class="navegacion__link">¿Qué es?</a>
+            <a href="#funciona" class="navegacion__link">¿Cómo funciona?</a>
+            <a href="#precios" class="navegacion__link">Precios</a>
+            <a href="#contratar" class="navegacion__link">Contratar</a>
           </nav>
         </div>
         <div class="header__grid">
@@ -46,7 +46,7 @@
         </div>
       </div>
     </header>
-    <main class="nucleus">
+    <main class="nucleus" id="Que_es">
       <h2 class="nucleus__title">¿Qué es?</h2>
       <div class="nucleus__wrapper">
         <div class="nucleus__grid">
@@ -82,5 +82,198 @@
         </div>
       </div>
     </main>
+    <section class="seguridad" id="funciona">
+      <div class="seguridad__wrapper">
+        <h2 class="seguridad__title">Nucleus es seguro</h2>
+        <div class="seguridad__grid">
+          <ul class="listado">
+            <li class="listado__elemento">
+              <p class="listado__texto">
+                Nucleus es seguro e imposible de clonar
+              </p>
+            </li>
+            <!--Fin del elemento-->
+            <li class="listado__elemento">
+              <p class="listado__texto">
+                Protección biometrica para confirmar un deposito o registrar una
+                cuenta
+              </p>
+            </li>
+            <!--Fin del elemento-->
+            <li class="listado__elemento">
+              <p class="listado__texto">
+                Paga en un establecimiento con una tarjeta de crédito que se
+                descativa una vez hecha la trasacción.
+              </p>
+            </li>
+            <!--Fin del elemento-->
+          </ul>
+          <div class="seguridad__imagen">
+            <picture>
+              <source srcset="img/seguridad.webp" type="image/webp" />
+              <img src="img/seguridad.png" alt="necleus seguridad image" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="comisiones" id="precios">
+      <div class="comisiones__wrapper">
+        <h2 class="comisiones__title">Comisiones</h2>
+        <div class="comisiones__grid">
+          <div class="comisiones__content">
+            <p class="comisiones__text">
+              Mientras más veces uses Nucleus, menos pagas:
+            </p>
+            <ul class="listado">
+              <li class="listado__elemento listado__elemento--2col">
+                <p class="listado__numero">3%</p>
+                <p class="listado__texto">
+                  De todas tus transacciones si tus movimientos son mnores a
+                  $999 USD.
+                </p>
+              </li>
+              <!--Fin del elemento-->
+              <li class="listado__elemento listado__elemento--2col">
+                <p class="listado__numero">2.5%</p>
+                <p class="listado__texto">
+                  De todas tus transacciones si tus movimientos son mayores a
+                  $999 USD.
+                </p>
+              </li>
+              <!--Fin del elemento-->
+            </ul>
+          </div>
+          <!-- fin del contenido-->
+          <div class="comisiones__imagen">
+            <img src="./img/app_3.svg" alt="nucleus image comisiones" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimoniales" id="contratar">
+      <div class="testimoniales__wrapper">
+        <h2 class="testimoniales__title">Testimonios</h2>
+        <div class="testimoniales__grid">
+          <div class="testimonio">
+            <div class="testimonio__grid">
+              <div class="testimonio__wrapperImagen">
+                <picture>
+                    <source srcset="./img/persona1.webp" type="image/webp">
+                    <img src="./img/persona1.jpg" alt="persona testimonio 1" class="testimonio__imagen">
+                </picture>
+              </div>
+              <div class="testimonio__contenido">
+                <p class="testimonio__texto">
+                  Excelente app, muy sencillo de manejar y enviar dinero
+                </p>
+                <p class="testimonio__autor">-Diana Laura</p>
+              </div>
+            </div>
+          </div>
+          <!-- Fin del testimonio-->
+          <div class="testimonio">
+            <div class="testimonio__grid">
+              <div class="testimonio__wrapperImagen">
+                <picture>
+                    <source srcset="./img/persona2.webp" type="image/webp">
+                    <img src="./img/persona2.jpg" alt="persona testimonio 1" class="testimonio__imagen">
+                </picture>
+              </div>
+              <div class="testimonio__contenido">
+                <p class="testimonio__texto">
+                  Excelente app, muy sencillo de manejar y enviar dinero
+                </p>
+                <p class="testimonio__autor">-Uriel Benítez Medina</p>
+              </div>
+            </div>
+          </div>
+          <!-- Fin del testimonio-->
+          <div class="testimonio">
+            <div class="testimonio__grid">
+              <div class="testimonio__wrapperImagen">
+                <picture>
+                    <source srcset="./img/persona3.webp" type="image/webp">
+                    <img src="./img/persona3.jpg" alt="persona testimonio 1" class="testimonio__imagen">
+                </picture>
+              </div>
+              <div class="testimonio__contenido">
+                <p class="testimonio__texto">
+                  Excelente app, muy sencillo de manejar y enviar dinero
+                </p>
+                <p class="testimonio__autor">-Lidia Carillo</p>
+              </div>
+            </div>
+          </div>
+          <!-- Fin del testimonio-->
+          <div class="testimonio">
+            <div class="testimonio__grid">
+              <div class="testimonio__wrapperImagen">
+                <picture>
+                    <source srcset="./img/persona4.webp" type="image/webp">
+                    <img src="./img/persona4.jpg" alt="persona testimonio 1" class="testimonio__imagen">
+                </picture>
+              </div>
+              <div class="testimonio__contenido">
+                <p class="testimonio__texto">
+                  Excelente app, muy sencillo de manejar y enviar dinero
+                </p>
+                <p class="testimonio__autor">-Ramsses Hernández</p>
+              </div>
+            </div>
+          </div>
+          <!-- Fin del testimonio-->
+          <div class="testimonio">
+            <div class="testimonio__grid">
+              <div class="testimonio__wrapperImagen">
+                <picture>
+                    <source srcset="./img/persona5.webp" type="image/webp">
+                    <img src="./img/persona5.jpg" alt="persona testimonio 1" class="testimonio__imagen">
+                </picture>
+              </div>
+              <div class="testimonio__contenido">
+                <p class="testimonio__texto">
+                  Excelente app, muy sencillo de manejar y enviar dinero
+                </p>
+                <p class="testimonio__autor">-Javier Goméz</p>
+              </div>
+            </div>
+          </div>
+          <!-- Fin del testimonio-->
+          <div class="testimonio">
+            <div class="testimonio__grid">
+              <div class="testimonio__wrapperImagen">
+                <picture>
+                    <source srcset="./img/persona6.webp" type="image/webp">
+                    <img src="./img/persona6.jpg" alt="persona testimonio 1" class="testimonio__imagen">
+                </picture>
+              </div>
+              <div class="testimonio__contenido">
+                <p class="testimonio__texto">
+                  Excelente app, muy sencillo de manejar y enviar dinero
+                </p>
+                <p class="testimonio__autor">-Uriel Benítez Medina</p>
+              </div>
+            </div>
+          </div>
+          <!-- Fin del testimonio-->
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__grid">
+                <div class="footer__logo">
+                    <img src="./img/logo-blanco.svg" alt="logo nucleus blanco">
+                </div>
+                <nav class="navegacion">
+                    <a href="#Que_es" class="navegacion__link navegacion__link--blanco">¿Qué es?</a>
+                    <a href="#funciona" class="navegacion__link navegacion__link--blanco">¿Cómo funciona?</a>
+                    <a href="#precios" class="navegacion__link navegacion__link--blanco">Precios</a>
+                    <a href="#contratar" class="navegacion__link navegacion__link--blanco">Contratar</a>
+                  </nav>
+            </div>
+        </div>
+    </footer>
   </body>
 </html>
